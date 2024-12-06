@@ -201,8 +201,8 @@ class _CalculatorState extends State<Calculator> {
               crossAxisSpacing: 0,
               padding: EdgeInsets.zero,
               children: [
-                CalculatorButton('AC', buttonPressed, color: Colors.red),
-                CalculatorButton('⌫', buttonPressed),
+                CalculatorButton('AC', buttonPressed, color: const Color.fromARGB(255, 182, 124, 36)),
+                CalculatorButton('⌫', buttonPressed, textColor: Colors.orange),
                 CalculatorButton('%', buttonPressed, textColor: Colors.green),
                 CalculatorButton('√', buttonPressed, textColor: Colors.green),
                 CalculatorButton('7', buttonPressed),

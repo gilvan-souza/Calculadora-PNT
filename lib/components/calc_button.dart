@@ -17,7 +17,7 @@ class CalculatorButton extends StatelessWidget {
         child: ElevatedButton(
           style: ElevatedButton.styleFrom(
             foregroundColor: textColor, backgroundColor: color,
-            textStyle: TextStyle(fontSize: 26, fontWeight: FontWeight.w400), // Aumentar o tamanho dos textos dentro dos botões
+            textStyle: TextStyle(fontSize: 26, fontWeight: FontWeight.w500), // Aumentar o tamanho dos textos dentro dos botões
           ),
           onPressed: () => callback(text),
           child: Text(text),
